@@ -1,0 +1,39 @@
+#page-success {
+    background-color: var(--color-primary);
+    width: 100vw;
+    height: 100vh;    
+}
+
+#page-success #container {
+    width: 70vw;
+    height: 70vh;
+    max-width: 100%;
+    
+    background-image: url('../../images/success-background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    color: var(--color-title-in-primary);
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-success #container img {
+    height: 10rem;
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+}
+
+#page-success #container h1 {
+    font: 700 4.6rem Archivo;
+    margin-bottom: 1.4rem;
+}
+
+#page-success #container p {
+    font: 400 1.4rem Poppins;
+    color: var(--color-text-in-primary);
+}
