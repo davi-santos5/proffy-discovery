@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
     <script src="/scripts/addField.js" defer></script>
+    <script src="/scripts/removeField.js" defer></script>
 </head>
 <body id="page-give-classes">
     <div id="container">
@@ -101,6 +102,10 @@
                         <label for="time_to">Até</label>
                         <input type="time" name="time_to[]" required>
                     </div>
+
+                    <button type="button" class="remove-time" onclick=removeField(event)>
+                        -
+                    </button>
                  </div>
              </fieldset>
          </form>

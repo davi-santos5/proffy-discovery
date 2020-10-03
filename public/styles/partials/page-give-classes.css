@@ -54,6 +54,24 @@
     color: var(--color-primary-dark);
 }
 
+#page-give-classes fieldset .alert-msg {
+    width: 25rem;
+    
+    text-align: center;
+    margin-top: 2.4rem;
+    position: absolute;
+    left: calc((100% - 25rem) / 2);
+    
+    color: var(--color-red);
+    opacity: 0;
+    
+    transition: opacity 0.2s  
+}
+
+#page-give-classes fieldset .alert-msg-show {
+    opacity: 1;
+}
+
 #page-give-classes fieldset+fieldset {
     margin-top: 6.4rem;
 }
@@ -62,6 +80,27 @@
 #page-give-classes .input-block+.textarea-block,
 #page-give-classes .select-block+.input-block {
     margin-top: 2.4rem;
+}
+
+#page-give-classes .remove-time {
+    width: 100%;
+    height: 5.6rem;
+    
+    margin-top: 2.4rem;
+
+    border-radius: 0.8rem;
+    outline: 0;
+    border: none;
+    background-color: var(--color-red);
+    color: var(--color-button-text);
+    font: 700 1.6rem Archivo;
+
+    transition: 0.2s;
+}
+
+#page-give-classes .remove-time:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 .schedule-item+.schedule-item {
@@ -132,7 +171,7 @@
 
     .schedule-item {
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 5.6rem;
         column-gap: 1.6rem;
     }   
 
