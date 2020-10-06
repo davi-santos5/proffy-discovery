@@ -25,16 +25,9 @@ function cloneField() {
         const field = document.querySelector('#schedule-items')
         
         alertMsg.classList.add('alert-msg')
+        alertMsg.classList.add('fade')
         alertMsg.appendChild(alertTxt)
-        field.appendChild(alertMsg)
-
-        setTimeout(() => {
-            alertMsg.classList.add('alert-msg-show')
-        }, 500)
-
-        setTimeout(() => {
-            alertMsg.classList.remove('alert-msg-show')
-        }, 6500)
+        field.querySelector('legend').insertAdjacentElement('afterend', alertMsg)
 
         setTimeout(() => {
             field.removeChild(alertMsg)
