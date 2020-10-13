@@ -48,10 +48,10 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 
 ## 🧭 Como executar o projeto
 
-Você precisará isntalar as seguintes ferramentas: <br>
-[Git](https://git-scm.com) <br>
-[Node.js](https://nodejs.org/en/) <br> 
-E um editor para mexer no código, como [VSCode](https://code.visualstudio.com/) <br>
+Você precisará isntalar as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/) 
+- E um editor para mexer no código, como [VSCode](https://code.visualstudio.com/)
 
 #### Rodando a aplicação
 
@@ -60,7 +60,7 @@ E um editor para mexer no código, como [VSCode](https://code.visualstudio.com/)
 # Clone este repositório
 $ git clone https://github.com/davi-santos5/proffy-discovery
 
-# Acesse a pasta do projeto no seu vscode
+# Acesse a pasta do projeto
 $ cd proffy-discovery
 
 # Instale as dependências
